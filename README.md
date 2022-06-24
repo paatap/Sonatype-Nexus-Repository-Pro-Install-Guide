@@ -81,6 +81,8 @@ echo "nexus.hazelcast.discovery.isEnabled=true" >> nexus-default.properties
 
 ![Screenshot from 2022-06-24 14-22-12](https://user-images.githubusercontent.com/16716538/175543274-1c52547b-42b3-4e4c-b655-989bd44404d7.png)
 
+![Screenshot from 2022-06-24 14-22-46](https://user-images.githubusercontent.com/16716538/175543542-325c6dee-6073-44f7-a02f-1be5c7678f5a.png)
+
 mkdir fabric
 
 
