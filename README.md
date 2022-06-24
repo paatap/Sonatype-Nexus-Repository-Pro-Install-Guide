@@ -1,7 +1,7 @@
 # Sonatype-Nexus-Repository-Pro-Install-Guide
 
 
-Move Postgres DB To /opt folder
+**Move Postgres DB To /opt folder**
 
 cd dir
 
@@ -32,7 +32,7 @@ systemctl start postgresql-13
 systemctl enable postgresql.service
 
 
-Postgres 13 connection issue via SSL antentification
+**Postgres 13 connection issue via SSL antentification**
 
 Add this  lines to pg_hba.conf
 
