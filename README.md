@@ -79,6 +79,8 @@ echo "nexus.hazelcast.discovery.isEnabled=true" >> nexus-default.properties
 
 ![Screenshot from 2022-06-24 14-21-51](https://user-images.githubusercontent.com/16716538/175542528-a170c61e-c647-4146-a427-a8f244f6eaec.png)
 
+![Screenshot from 2022-06-24 14-22-12](https://user-images.githubusercontent.com/16716538/175543274-1c52547b-42b3-4e4c-b655-989bd44404d7.png)
+
 mkdir fabric
 
 
@@ -91,6 +93,9 @@ echo "username=nexus password=nexus" >> nexus-store.properties
 echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus-store.properties
 
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
+
+
+
 
 
 cd /nexus...-work/nexus3/etc
