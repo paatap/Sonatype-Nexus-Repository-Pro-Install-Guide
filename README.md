@@ -83,7 +83,9 @@ echo "nexus.hazelcast.discovery.isEnabled=true" >> nexus-default.properties
 
 ![Screenshot from 2022-06-24 14-22-46](https://user-images.githubusercontent.com/16716538/175543542-325c6dee-6073-44f7-a02f-1be5c7678f5a.png)
 
-mkdir fabric
+**mkdir fabric**
+
+![Screenshot from 2022-06-24 14-33-12](https://user-images.githubusercontent.com/16716538/175544090-51bbe598-b6ff-4224-842a-903fe85fc385.png)
 
 
 touch(if not exist) nexus-store.properties
@@ -97,6 +99,7 @@ echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus-store.prop
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
 
 
+![Screenshot from 2022-06-24 14-33-41](https://user-images.githubusercontent.com/16716538/175544193-2861c118-e95f-4b82-a9de-5af27d6a245f.png)
 
 
 
