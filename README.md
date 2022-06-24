@@ -17,7 +17,7 @@ cat  /usr/lib/systemd/system/postgresql-13.service
 
 edit this file
 
-change path to pgdata
+**change path to pgdata**
 
 _> # Location of database directory
 Environment=PGDATA=/opt/pgsql13/data/
@@ -34,26 +34,26 @@ systemctl enable postgresql.service
 
 **Postgres 13 connection issue via SSL antentification**
 
-Add this  lines to pg_hba.conf
+**Add this  lines to pg_hba.conf**
 
 -> # host  all     all 0.0.0.0/0 md5
 host    all             all             10.91.206.88/32         md5
 host    all             all             0.0.0.0/0               trust
 
 
-
-True instuction on this link
+**
+True instuction on this link**
 
 https://help.sonatype.com/repomanager3/installation-and-upgrades/migrating-to-a-new-database
 
-Migration
+**Migration**
 
 cd /opt/sonatype-work/nexus3/etc/fabric
  
 java -Xmx4G -Xms4G -XX:MaxDirectMemorySize=4014M -jar nexus-db-migrator-3.39.0-01.jar --migration_type=postgres --db_url="jdbc:postgresql://10.91.209.209:5432/nexus?user=nexus&password=nexus"
 
 
-Connect To Postgres
+**Connect To Postgres**
 
 cd  /nexus v-/etc 
 
