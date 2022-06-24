@@ -90,6 +90,8 @@ echo "nexus.hazelcast.discovery.isEnabled=true" >> nexus-default.properties
 
 touch(if not exist) nexus-store.properties
 
+![Screenshot from 2022-06-24 14-33-41](https://user-images.githubusercontent.com/16716538/175544193-2861c118-e95f-4b82-a9de-5af27d6a245f.png)
+
 echo "nexus.datastore.enabled.true" >> nexus-store.properties
 
 echo "username=nexus password=nexus" >> nexus-store.properties
@@ -98,15 +100,16 @@ echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus-store.prop
 
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
 
-
-![Screenshot from 2022-06-24 14-33-41](https://user-images.githubusercontent.com/16716538/175544193-2861c118-e95f-4b82-a9de-5af27d6a245f.png)
-
+![Screenshot from 2022-06-24 14-34-25](https://user-images.githubusercontent.com/16716538/175544494-f54fc9ba-015f-49ab-9564-057124799193.png)
 
 
 
-cd /nexus...-work/nexus3/etc
+**cd /nexus...-work/nexus3/etc**
 
 touch(if not exist) nexus.properties
+
+![Screenshot from 2022-06-24 14-39-12](https://user-images.githubusercontent.com/16716538/175544593-20211e82-fbb3-41e1-bdd5-854bb74422ef.png)
+
 
 
 echo "nexus.datastore.enabled=true" >> nexus.properties
@@ -125,10 +128,15 @@ echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus.properties
 
 echo "advanced=maximumPoolSize\=200" >> nexus.properties
 
-mkdir fabric
+![Screenshot from 2022-06-24 14-41-07](https://user-images.githubusercontent.com/16716538/175544831-479da081-d50e-4683-a777-2c21c27c2954.png)
+
+
+**mkdir fabric**
 
 
 touch(if not exist) nexus-store.properties
+
+![Screenshot from 2022-06-24 14-43-33](https://user-images.githubusercontent.com/16716538/175544923-9fb702da-9443-4f04-bf4b-4cab091c2e64.png)
 
 
 
@@ -140,6 +148,8 @@ echo "username=nexus" >> nexus-store.properties
 
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
 
+
+![Screenshot from 2022-06-24 14-49-15](https://user-images.githubusercontent.com/16716538/175544998-b1b208a1-9173-41cc-8cb1-0195f2750a8d.png)
 
 
 
