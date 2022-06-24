@@ -76,7 +76,7 @@ echo "advanced=maximumPoolSize\=200 >> nexus.properties
 
 
 echo "nexus.hazelcast.discovery.isEnabled=true" >> nexus-default.properties
-
+![Screenshot from 2022-06-24 14-21-51](https://user-images.githubusercontent.com/16716538/175542528-a170c61e-c647-4146-a427-a8f244f6eaec.png)
 
 mkdir fabric
 
