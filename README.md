@@ -30,11 +30,17 @@ cd  /nexus v-/etc
 
 touch nexus.properties
 echo "nexus.datastore.enabled=true" >> nexus.properties
+
 echo "nexus.heartbeat.enabled=true >> nexus.properties
+
 echo "nexus.heartbeat.interval=600 >> nexus.properties
+
 echo "nexus.heartbeat.history=30 >> nexus.properties
+
 echo "username=nexus password=nexus >> nexus.properties
+
 echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus >> nexus.properties
+
 echo "advanced=maximumPoolSize\=200 >> nexus.properties
 
 
