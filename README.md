@@ -19,7 +19,7 @@ edit this file
 
 change path to pgdata
 
-# Location of database directory
+_> # Location of database directory
 Environment=PGDATA=/opt/pgsql13/data/
 
 
