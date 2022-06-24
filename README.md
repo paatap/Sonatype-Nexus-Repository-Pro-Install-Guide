@@ -3,7 +3,7 @@
 
 
 
-Postgres 13 connection issu via SSL antentification
+Postgres 13 connection issue via SSL antentification
 
 Add this  lines to pg_hba.conf
 
