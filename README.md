@@ -44,7 +44,7 @@ host    all             all             0.0.0.0/0               trust
 
 **True instuction on this link**
 
-**Do not upload lic file via curl- do not works -Bag Upload via Web Interface**
+**Do not upload lic file via curl- do not works -Bug Upload via Web Interface**
 
 https://help.sonatype.com/repomanager3/installation-and-upgrades/migrating-to-a-new-database
 
