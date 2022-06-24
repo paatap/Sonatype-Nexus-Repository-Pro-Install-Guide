@@ -51,9 +51,13 @@ mkdir fabric
 
 
 touch(if not exist) nexus-store.properties
+
 echo "nexus.datastore.enabled.true" >> nexus-store.properties
+
 echo "username=nexus password=nexus" >> nexus-store.properties
+
 echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus-store.properties
+
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
 
 
@@ -63,12 +67,19 @@ touch(if not exist) nexus.properties
 
 
 echo "nexus.datastore.enabled=true" >> nexus.properties
+
 echo "nexus.heartbeat.enabled=true" >> nexus.properties
+
 echo "nexus.heartbeat.interval=600" >> nexus.properties
+
 echo "nexus.heartbeat.history=30" >> nexus.properties
+
 echo "username=nexus" >> nexus.properties
+
 echo "password=nexus" >> nexus.properties
+
 echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus.properties
+
 echo "advanced=maximumPoolSize\=200" >> nexus.properties
 
 mkdir fabric
@@ -79,9 +90,13 @@ touch(if not exist) nexus-store.properties
 
 
 echo "password=nexus" >> nexus-store.properties
+
 echo "jdbcUrl=jdbc\:postgresql\://10.91.209.209\:5432/nexus" >> nexus-store.properties
+
 echo "username=nexus" >> nexus-store.properties
+
 echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
+
 
 
 
