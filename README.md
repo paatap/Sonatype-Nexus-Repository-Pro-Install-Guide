@@ -100,6 +100,7 @@ echo "advanced=maximumPoolSize\=200" >> nexus-store.properties
 
 
 
+
 cd /nexus...-work/nexus3/etc
 
 touch(if not exist) nexus.properties
