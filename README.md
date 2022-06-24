@@ -1,6 +1,35 @@
 # Sonatype-Nexus-Repository-Pro-Install-Guide
 
 
+Move Postgres DB To /opt folder
+
+cd dir
+
+mkdir /pgsql13
+
+cd pgsql13
+
+mkdir data
+
+chown -R postgres:postgres /opt/pgsql13/
+
+cat  /usr/lib/systemd/system/postgresql-13.service
+
+edit this file
+
+change path to pgdata
+
+# Location of database directory
+Environment=PGDATA=/opt/pgsql13/data/
+
+
+/usr/pgsql-13/bin/postgresql-13-setup initdb
+
+systemctl enable postgresql-13
+
+systemctl start postgresql-13
+
+systemctl enable postgresql.service
 
 
 Postgres 13 connection issue via SSL antentification
