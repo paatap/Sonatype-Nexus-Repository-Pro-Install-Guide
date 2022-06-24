@@ -41,8 +41,8 @@ host    all             all             10.91.206.88/32         md5
 host    all             all             0.0.0.0/0               trust
 
 
-**
-True instuction on this link**
+
+**True instuction on this link**
 
 https://help.sonatype.com/repomanager3/installation-and-upgrades/migrating-to-a-new-database
 
