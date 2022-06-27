@@ -3,7 +3,7 @@
 
 **Move Postgres DB To /opt folder**
 
-cd dir
+cd /opt
 
 mkdir /pgsql13
 
